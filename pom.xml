@@ -25,6 +25,14 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.sf.htmlparser</groupId>
+      <artifactId>htmlparser</artifactId>
+      <version>1.6</version>
+    </dependency>
+  </dependencies>
+
   <scm>
     <connection>scm:git:ssh://github.com/jenkinsci/seleniumhtmlreport.git</connection>
 	<developerConnection>scm:git:ssh://git@github.com/jenkinsci/seleniumhtmlreport.git</developerConnection>

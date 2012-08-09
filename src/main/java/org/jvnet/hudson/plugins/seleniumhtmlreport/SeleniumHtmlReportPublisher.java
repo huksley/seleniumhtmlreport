@@ -110,6 +110,7 @@ public class SeleniumHtmlReportPublisher extends Recorder implements Serializabl
         }
         for (String selfile : files) {
             try{
+            	selfile = selfile.replace('\\', '/');
                 results.add(TestResult.parse(build, listener, selfile, getSeleniumReportsDir(build)));
             } catch (Exception e) {
                 listener.getLogger().println("Unable to parse " + selfile + ": " + e);

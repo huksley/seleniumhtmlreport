@@ -1,2 +1,5 @@
 This is an hudson plugin to visualize the results of selenium tests.
 
+Update 2012-08-09: Added ability to parse logging-selenium reports.
+
+
